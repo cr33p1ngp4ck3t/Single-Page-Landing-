@@ -15,27 +15,27 @@ export default function Footer() {
 								<Image
 									width={24}
 									height={24}
-									src="/whatsapp.svg "
+									src="/whatsapp.svg"
 									alt=""
-									className="w-6 h-6 bg-gray-700"
+									className="w-6 h-6"
 								/>
 							</a>
 							<a>
 								<Image
 									width={24}
 									height={24}
-									src="/facebook.svg "
+									src="/facebook.svg"
 									alt=""
-									className="w-6 h-6 bg-gray-700"
+									className="w-6 h-6"
 								/>
 							</a>
 							<a>
 								<Image
 									width={24}
 									height={24}
-									src="/instagram.svg "
+									src="/instagram.svg"
 									alt=""
-									className="w-6 h-6 bg-gray-700"
+									className="w-6 h-6"
 								/>
 							</a>
 						</div>
