@@ -32,11 +32,12 @@ export default function Services() {
 							<div className="flex-1 ">
 								<div className="lg:p-6 lg:text-start text-center py-4 ">
 									{/* Text */}
-									<h3 className="text-2xl  ">Custom Website Design</h3>
+
+									<h3 className="text-2xl  ">Logo Design & Branding</h3>
 									<p className="text-gray-400 py-6">
-										We craft responsive and visually appealing websites tailored
-										to your brand{`'`}s identity. Our designs focus on user
-										experience and creating a lasting impression.
+										We create logos that capture your brand{`'`}s essence,
+										ensuring a lasting impression. From concept to completion,
+										our designs are tailored for clarity and impact.
 									</p>
 									<button className="border border-blue-700 text-blue-700 px-6 py-2 text-sm rounded-sm ">
 										Learn More
@@ -84,11 +85,11 @@ export default function Services() {
 							<div className="flex-1 ">
 								<div className="lg:p-6 lg:text-start text-center py-4">
 									{/* Text */}
-									<h3 className="text-2xl  ">Maintenance & Optimization</h3>
+									<h3 className="text-2xl  ">Custom Website Design</h3>
 									<p className="text-gray-400 py-6">
-										We ensure your website runs smoothly with regular updates
-										and performance enhancements. Stay ahead with a website
-										that’s always up to date.
+										We craft responsive and visually appealing websites tailored
+										to your brand{`'`}s identity. Our designs focus on user
+										experience and creating a lasting impression.
 									</p>
 									<button className="border border-blue-700 text-blue-700 px-6 py-2 text-sm rounded-sm ">
 										Learn More
