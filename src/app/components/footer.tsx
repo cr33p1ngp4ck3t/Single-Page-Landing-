@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Footer() {
 	return (
 		<div>
@@ -11,13 +12,31 @@ export default function Footer() {
 						</div>
 						<div className="flex gap-5 items-center justify-center py-6">
 							<a>
-								<img src="/whatsapp.svg " alt="" className="w-6 h-6" />
+								<Image
+									width={24}
+									height={24}
+									src="/whatsapp.svg "
+									alt=""
+									className="w-6 h-6 bg-gray-700"
+								/>
 							</a>
 							<a>
-								<img src="/facebook.svg " alt="" className="w-6 h-6" />
+								<Image
+									width={24}
+									height={24}
+									src="/facebook.svg "
+									alt=""
+									className="w-6 h-6 bg-gray-700"
+								/>
 							</a>
 							<a>
-								<img src="/instagram.svg " alt="" className="w-6 h-6" />
+								<Image
+									width={24}
+									height={24}
+									src="/instagram.svg "
+									alt=""
+									className="w-6 h-6 bg-gray-700"
+								/>
 							</a>
 						</div>
 					</div>

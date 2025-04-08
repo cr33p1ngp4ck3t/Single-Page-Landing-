@@ -45,8 +45,8 @@ export default function Contact() {
 							Let{`'`}s Work Together
 						</h1>
 						<p className=" text-gray-400 ">
-							Ready to bring your vision to life? Whether it's a fresh website or a
-							design update, we're here to make it happen.
+							Ready to bring your vision to life? Whether it{`'`}s a fresh website or
+							a design update, we{`'`}re here to make it happen.
 						</p>
 					</div>
 

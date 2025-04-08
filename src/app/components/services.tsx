@@ -35,7 +35,7 @@ export default function Services() {
 									<h3 className="text-2xl  ">Custom Website Design</h3>
 									<p className="text-gray-400 py-6">
 										We craft responsive and visually appealing websites tailored
-										to your brand's identity. Our designs focus on user
+										to your brand{`'`}s identity. Our designs focus on user
 										experience and creating a lasting impression.
 									</p>
 									<button className="border border-blue-700 text-blue-700 px-6 py-2 text-sm rounded-sm ">
