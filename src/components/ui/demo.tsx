@@ -4,6 +4,7 @@ import { useId } from "react";
 interface FormButtonProps {
 	label: string;
 	type: string;
+	name?: string;
 }
 
 function FormButton(params: FormButtonProps) {
@@ -16,7 +17,7 @@ function FormButton(params: FormButtonProps) {
 			>
 				<span className="inline-flex bg-white text-gray-700 px-2">{params.label}</span>
 			</label>
-			<Input id={id} type={params.type} placeholder="" />
+			<Input id={id} type={params.type} placeholder="" required name={params.name} />
 		</div>
 	);
 }
