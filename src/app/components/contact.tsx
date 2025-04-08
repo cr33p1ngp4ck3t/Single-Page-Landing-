@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { FormButton } from "@/components/ui/demo";
 import { useState } from "react";
