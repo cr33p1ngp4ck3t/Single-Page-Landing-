@@ -14,6 +14,7 @@ export default function Contact() {
 			phone: e.target.phone.value,
 			company: e.target.company.value,
 			message: e.target.message.value,
+			country: e.target.message.value,
 		};
 		const JSONdata = JSON.stringify(data);
 		const endpoint = "/api/send";
@@ -63,10 +64,13 @@ export default function Contact() {
 							<FormButton label="Email" type="email" name="email" />
 							<FormButton label="Phone" type="tel" name="phone" />
 						</div>
-						<div className="flex flex-col gap-5 w-full ">
+						<div className="flex gap-5 flex-col md:flex-row w-full  ">
+							<FormButton label="Country" type="text" name="country" />
 							<FormButton label="Company" type="text" name="company" />
+						</div>
+						<div className="flex flex-col gap-5 w-full ">
 							<textarea
-								className="flex h-9 w-full rounded-lg border-gray-600 border-input bg-background px-3 py-2 text-sm text-foreground shadow-sm shadow-black/5 transition-shadow placeholder:text-muted-foreground/70 focus-visible:border-ring focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/20 disabled:cursor-not-allowed disabled:opacity-50"
+								className="flex h-12 w-full rounded-lg border-gray-600 border-input bg-background px-3 py-2 text-sm text-foreground shadow-sm shadow-black/5 transition-shadow placeholder:text-muted-foreground/70 focus-visible:border-ring focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/20 disabled:cursor-not-allowed disabled:opacity-50"
 								name="message"
 								placeholder="Message"
 								required
